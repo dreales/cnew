@@ -31,9 +31,7 @@
             @Html.Partial("~/views/partials/navigation/topNavigation.cshtml")
         </nav>
     </div>
-
     <header class="header">
-
         <div class="logo">
             @if (home.SiteLogo != null && !string.IsNullOrEmpty(home.SiteLogo.Url))
             {
@@ -77,7 +75,5 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
     <script src="@Url.Content("~/scripts/umbraco-starterkit-app.js")"></script>
-
 </body>
-
 </html>
