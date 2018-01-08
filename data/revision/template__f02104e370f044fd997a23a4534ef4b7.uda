@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/Blog.cshtml",
-  "Master": null,
+  "Master": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
   "Udi": "umb://template/f02104e370f044fd997a23a4534ef4b7",
   "Dependencies": [
+    {
+      "Udi": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/Blog.cshtml",
       "Ordering": true,
