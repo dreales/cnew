@@ -1,0 +1,28 @@
+{
+  "DefaultTemplate": "umb://template/74a46aef4f9f44079722b4786a5d7229",
+  "AllowedTemplates": [
+    "umb://template/74a46aef4f9f44079722b4786a5d7229"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b3f81707c80b494685f90297520b3d01",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/74a46aef4f9f44079722b4786a5d7229",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Hospital",
+  "Alias": "hospital",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}
