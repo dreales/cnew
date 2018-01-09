@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/Consultant.cshtml",
-  "Master": null,
+  "Master": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
   "Udi": "umb://template/d19b0421e42a4f67879694cef3ce6c88",
   "Dependencies": [
+    {
+      "Udi": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/Consultant.cshtml",
       "Ordering": true,
