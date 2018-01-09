@@ -1,0 +1,28 @@
+{
+  "DefaultTemplate": "umb://template/674168f2639e4806b6dd06ab68144097",
+  "AllowedTemplates": [
+    "umb://template/674168f2639e4806b6dd06ab68144097"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/304f05273bf043ba99565d44be4e2375",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/674168f2639e4806b6dd06ab68144097",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Consultat list",
+  "Alias": "consultatList",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}
