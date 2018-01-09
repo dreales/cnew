@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Consultant.cshtml",
+  "Master": null,
+  "Udi": "umb://template/d19b0421e42a4f67879694cef3ce6c88",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Consultant.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Consultant",
+  "Alias": "Consultant",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.10"
+}
