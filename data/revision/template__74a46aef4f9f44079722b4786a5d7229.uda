@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Hospital.cshtml",
+  "Master": null,
+  "Udi": "umb://template/74a46aef4f9f44079722b4786a5d7229",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Hospital.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Hospital",
+  "Alias": "Hospital",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.10"
+}
