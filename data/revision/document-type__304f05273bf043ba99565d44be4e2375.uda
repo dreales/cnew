@@ -21,7 +21,7 @@
       "Mode": 0
     }
   ],
-  "Name": "Consultat List",
+  "Name": "Consultant List",
   "Alias": "consultatList",
   "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
   "__version": "2.0.10"
