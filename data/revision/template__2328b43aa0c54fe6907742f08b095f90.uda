@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Treatment.cshtml",
+  "Master": null,
+  "Udi": "umb://template/2328b43aa0c54fe6907742f08b095f90",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Treatment.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Treatment",
+  "Alias": "Treatment",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.10"
+}
