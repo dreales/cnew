@@ -4,7 +4,6 @@
 @{
     Layout = null;
 
-    // Get basic design settings from the homepage
     ContentModels.Home home = Model.Content.Site() as ContentModels.Home;
     var colorTheme = Umbraco.GetPreValueAsString(home.ColorTheme);
     var font = Umbraco.GetPreValueAsString(home.Font);
@@ -63,5 +62,6 @@
     </footer>
 
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </body>
 </html>
