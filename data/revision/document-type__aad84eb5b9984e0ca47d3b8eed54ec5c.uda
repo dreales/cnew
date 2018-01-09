@@ -10,11 +10,8 @@
   "IsContainer": false,
   "Parent": null,
   "AllowedChildContentTypes": [
-    "umb://document-type/4a9f42d33dc14ae1b3ffa21d97a388f8",
     "umb://document-type/7483c1cea07f4c8383f960362285dc47",
-    "umb://document-type/7b559f0ead4f4827b28baece3d1743f0",
-    "umb://document-type/f9097cf9114940b790a013995694c8e7",
-    "umb://document-type/fe735a191cbd47198d70400e0c1c1b81"
+    "umb://document-type/7b559f0ead4f4827b28baece3d1743f0"
   ],
   "CompositionContentTypes": [],
   "PropertyGroups": [
@@ -108,16 +105,6 @@
           "Mandatory": true,
           "Name": "Hero Background",
           "SortOrder": 0,
-          "Validation": null
-        },
-        {
-          "Key": "41efd6bf-7bed-4a75-a015-b46002197b25",
-          "Alias": "SiteLogo",
-          "DataType": "umb://data-type/f5264d17afc14070a0b6c0b205890bfe",
-          "Description": "Optional. If you add a logo it'll be used in the upper left corner instead of the site name. Make sure to use a transparent logo for best results",
-          "Mandatory": false,
-          "Name": "Logo",
-          "SortOrder": 4,
           "Validation": null
         },
         {
@@ -236,27 +223,12 @@
       "Mode": 0
     },
     {
-      "Udi": "umb://document-type/4a9f42d33dc14ae1b3ffa21d97a388f8",
-      "Ordering": false,
-      "Mode": 0
-    },
-    {
       "Udi": "umb://document-type/7483c1cea07f4c8383f960362285dc47",
       "Ordering": false,
       "Mode": 0
     },
     {
       "Udi": "umb://document-type/7b559f0ead4f4827b28baece3d1743f0",
-      "Ordering": false,
-      "Mode": 0
-    },
-    {
-      "Udi": "umb://document-type/f9097cf9114940b790a013995694c8e7",
-      "Ordering": false,
-      "Mode": 0
-    },
-    {
-      "Udi": "umb://document-type/fe735a191cbd47198d70400e0c1c1b81",
       "Ordering": false,
       "Mode": 0
     },
