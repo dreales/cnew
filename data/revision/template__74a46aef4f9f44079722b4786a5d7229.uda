@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/Hospital.cshtml",
-  "Master": null,
+  "Master": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
   "Udi": "umb://template/74a46aef4f9f44079722b4786a5d7229",
   "Dependencies": [
+    {
+      "Udi": "umb://template/5c1b4797c20e4b48a92e54eaca1c4874",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/Hospital.cshtml",
       "Ordering": true,
