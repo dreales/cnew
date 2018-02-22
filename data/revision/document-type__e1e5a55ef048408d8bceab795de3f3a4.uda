@@ -3,7 +3,7 @@
   "AllowedTemplates": [
     "umb://template/d19b0421e42a4f67879694cef3ce6c88"
   ],
-  "Icon": "icon-user-female",
+  "Icon": "icon-male-and-female",
   "Thumbnail": "folder.png",
   "Description": null,
   "AllowedAtRoot": false,
