@@ -9,12 +9,25 @@
   "AllowedAtRoot": false,
   "IsContainer": false,
   "Parent": null,
-  "AllowedChildContentTypes": [],
+  "AllowedChildContentTypes": [
+    "umb://document-type/7483c1cea07f4c8383f960362285dc47",
+    "umb://document-type/882bf01ffcd840eab78e3e532e44a4fa"
+  ],
   "CompositionContentTypes": [],
   "PropertyGroups": [],
   "PropertyTypes": [],
   "Udi": "umb://document-type/b3f81707c80b494685f90297520b3d01",
   "Dependencies": [
+    {
+      "Udi": "umb://document-type/7483c1cea07f4c8383f960362285dc47",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/882bf01ffcd840eab78e3e532e44a4fa",
+      "Ordering": false,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template/74a46aef4f9f44079722b4786a5d7229",
       "Ordering": true,
