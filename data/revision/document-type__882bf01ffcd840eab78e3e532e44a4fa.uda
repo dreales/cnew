@@ -1,0 +1,28 @@
+{
+  "DefaultTemplate": "umb://template/e46dd50846a0457f9f04e498ab6cd14c",
+  "AllowedTemplates": [
+    "umb://template/e46dd50846a0457f9f04e498ab6cd14c"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/882bf01ffcd840eab78e3e532e44a4fa",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/e46dd50846a0457f9f04e498ab6cd14c",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Speciality/Unit List",
+  "Alias": "specialityUnitList",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}
