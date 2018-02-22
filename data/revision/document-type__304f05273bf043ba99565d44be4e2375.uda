@@ -9,12 +9,19 @@
   "AllowedAtRoot": false,
   "IsContainer": false,
   "Parent": null,
-  "AllowedChildContentTypes": [],
+  "AllowedChildContentTypes": [
+    "umb://document-type/e1e5a55ef048408d8bceab795de3f3a4"
+  ],
   "CompositionContentTypes": [],
   "PropertyGroups": [],
   "PropertyTypes": [],
   "Udi": "umb://document-type/304f05273bf043ba99565d44be4e2375",
   "Dependencies": [
+    {
+      "Udi": "umb://document-type/e1e5a55ef048408d8bceab795de3f3a4",
+      "Ordering": false,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template/674168f2639e4806b6dd06ab68144097",
       "Ordering": true,
