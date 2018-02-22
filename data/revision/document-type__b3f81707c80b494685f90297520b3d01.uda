@@ -6,7 +6,7 @@
   "Icon": "icon-document",
   "Thumbnail": "folder.png",
   "Description": null,
-  "AllowedAtRoot": false,
+  "AllowedAtRoot": true,
   "IsContainer": false,
   "Parent": null,
   "AllowedChildContentTypes": [],
