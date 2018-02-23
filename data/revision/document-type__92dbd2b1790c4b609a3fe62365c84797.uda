@@ -3,7 +3,7 @@
   "AllowedTemplates": [
     "umb://template/ad744c5c20734ce9a9c9e36866d465ab"
   ],
-  "Icon": "icon-document",
+  "Icon": "icon-directions-alt",
   "Thumbnail": "folder.png",
   "Description": null,
   "AllowedAtRoot": false,
