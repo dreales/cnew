@@ -1,0 +1,28 @@
+{
+  "DefaultTemplate": "umb://template/ad744c5c20734ce9a9c9e36866d465ab",
+  "AllowedTemplates": [
+    "umb://template/ad744c5c20734ce9a9c9e36866d465ab"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/92dbd2b1790c4b609a3fe62365c84797",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/ad744c5c20734ce9a9c9e36866d465ab",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Menu",
+  "Alias": "menu",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.10"
+}
