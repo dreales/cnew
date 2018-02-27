@@ -8,3 +8,4 @@ body{margin:0}
 #main-nav img{height:62px;margin:0 10px}
 .navbar-dark .navbar-nav .nav-link{color:#fff}
 .dropdown:hover>.dropdown-menu{display:block}
+#main-nav .dropdown-menu{border:1px solid #fd585f;margin-top:-10px;border-top-width:34px;border-radius:0}
