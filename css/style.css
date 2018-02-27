@@ -5,7 +5,7 @@ body{margin:0}
 
 /* Navbar */
 #top-nav{background:#f0f0f0}
-#top-nav li{padding:0 8px;border-left:1px solid #80808033}
+#top-nav li{padding:0 8px;border-left:1px solid #80808033;line-height:17px}
 #top-nav li:first-child,#top-nav li:last-child{border:0}
 #top-nav li a{color:#666;font-size:12px}
 #top-nav li.number a{font-size:14px;color:#fc5960}
