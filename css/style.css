@@ -1,4 +1,4 @@
-*,:after,:before{box-sizing:border-box;font-family:'Open Sans',sans-serif!important}
+*,:after,:before{box-sizing:border-box;font-family:'Open Sans',sans-serif!important;font-size:13px}
 body,html{font-smoothing:antialiased}
 html{font-family:'Open Sans',sans-serif!important;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
