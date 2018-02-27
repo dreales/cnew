@@ -6,6 +6,7 @@ body{margin:0}
 /* Navbar */
 #top-nav{background:#f0f0f0}
 #top-nav li a{color:#666;font-size:12px}
+#top-nav li{padding:0 8px;border-left:1px solid #80808033}
 #main-nav{background:#fc5960}
 #main-nav img{height:62px;margin:0 10px}
 .navbar-dark .navbar-nav .nav-link{color:#fff;font-weight:600;margin-right:15px;letter-spacing:.5px}
