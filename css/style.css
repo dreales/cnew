@@ -9,7 +9,7 @@ body{margin:0}
 #top-nav li:first-child,#top-nav li:last-child{border:0}
 #top-nav li a{color:#666;font-size:12px}
 #top-nav li.number a{font-size:14px;color:#fc5960}
-#main-nav{background:#fc5960}
+#main-nav{background:#fc5960;padding:.2rem 1rem}
 #main-nav img{height:62px;margin:0 10px}
 #main-nav .navbar-nav .nav-link{color:#fff;font-weight:600;margin-right:15px;letter-spacing:.5px}
 .dropdown:hover>.dropdown-menu{display:block}
