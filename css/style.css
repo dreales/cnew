@@ -1,6 +1,6 @@
 *,:after,:before{box-sizing:border-box}
 body,html{font-smoothing:antialiased}
-html{font-family:'Open Sans',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html{font-family:'Open Sans',sans-serif!important;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 
 /* Navbar */
