@@ -2,7 +2,7 @@
 body,html{font-smoothing:antialiased}
 html{font-family:'Open Sans',sans-serif!important;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
-textarea:focus,input:focus{box-shadow:none!important;border-color:inherit;!important}
+textarea:focus,input:focus{box-shadow:none!important;border-color:#ced4da!important}
 
 /* Navbar */
 #top-nav{background:#f0f0f0}
