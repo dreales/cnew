@@ -10,7 +10,7 @@ body{margin:0}
 #top-nav li{padding:0 8px;border-left:1px solid #80808033}
 #main-nav{background:#fc5960}
 #main-nav img{height:62px;margin:0 10px}
-.navbar-dark .navbar-nav .nav-link{color:#fff;font-weight:600;margin-right:15px;letter-spacing:.5px}
+#main-nav .navbar-nav .nav-link{color:#fff;font-weight:600;margin-right:15px;letter-spacing:.5px}
 .dropdown:hover>.dropdown-menu{display:block}
 #main-nav .dropdown-menu{border:1px solid #fd585f;margin-top:-10px;border-top-width:35px;border-radius:0}
 #main-nav .dropdown-menu a{color:#FC5960}
