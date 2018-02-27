@@ -45,7 +45,7 @@
     <key alias="setPermissions">Sæt rettigheder</key>
     <key alias="unlock">Lås op</key>
     <key alias="createblueprint">Opret indholdsskabelon</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="actionCategories">
     <key alias="content">Indhold</key>
     <key alias="administration">Administration</key>
@@ -250,7 +250,7 @@
     <key alias="documentTypeWithoutTemplate">Dokumenttype uden skabelon</key>
     <key alias="newFolder">Ny mappe</key>
     <key alias="newDataType">Ny datatype</key>
-    <key alias="newJavascriptFile">Ny javascript fil</key>
+    <key alias="newJavascriptFile">Ny JavaScript-fil</key>
     <key alias="newEmptyPartialView">Ny tom partial view</key>
     <key alias="newFolder">Ny mappe</key>
     <key alias="newPartialViewMacro">Ny partial view makro</key>
@@ -1180,7 +1180,7 @@ Mange hilsner fra Umbraco robotten
 
     <key alias="iWant">Returner</key>
     <key alias="allContent">alt indhold</key>
-    <key alias="contentOfType">indhold af typen "%0%"</key>
+    <key alias="contentOfType">indhold af typen &quot;%0%&quot;</key>
     
     <key alias="from">fra</key>
     <key alias="websiteRoot">mit website</key>
@@ -1215,6 +1215,12 @@ Mange hilsner fra Umbraco robotten
   </area>
   
   <area alias="grid">
+    <key alias="rte">Rich Text Editor</key>
+    <key alias="media">Image</key>
+    <key alias="macro">Macro</key>
+    <key alias="embed">Embed</key>
+    <key alias="headline">Headline</key>
+    <key alias="quote">Quote</key>  
     <key alias="insertControl">Vælg indholdstype</key>
     <key alias="chooseLayout">Vælg layout</key>
     <key alias="addRows">Tilføj række</key>
@@ -1442,7 +1448,7 @@ Mange hilsner fra Umbraco robotten
     <key alias="documentType">Dokumenttype</key>
     <key alias="editors">Redaktør</key>
     <key alias="excerptField">Uddragsfelt</key>
-    <key alias="failedPasswordAttempts">Fejlet loginforsøg</key>
+    <key alias="failedPasswordAttempts">Fejlede loginforsøg</key>
     <key alias="goToProfile">Gå til brugerprofil</key>
     <key alias="groupsHelp">Tilføj grupper for at tildele adgang og tilladelser</key>
     <key alias="inviteAnotherUser">Invitér anden bruger</key>
@@ -1450,7 +1456,7 @@ Mange hilsner fra Umbraco robotten
     <key alias="language">Sprog</key>
     <key alias="languageHelp">Indstil det sprog, du vil se i menuer og dialoger</key>
     <key alias="lastLockoutDate">Seneste låst ude dato</key>
-    <key alias="lastLogin">Senest login</key>
+    <key alias="lastLogin">Seneste login</key>
     <key alias="lastPasswordChangeDate">Kodeord sidst ændret</key>
     <key alias="loginname">Brugernavn</key>
     <key alias="mediastartnode">Startnode i mediearkivet</key>
@@ -1481,7 +1487,7 @@ Mange hilsner fra Umbraco robotten
     <key alias="permissionsGranularHelp">Sæt rettigheder for specifikke noder</key>
     <key alias="profile">Profil</key>
     <key alias="searchAllChildren">Søg alle 'børn'</key>
-    <key alias="startnode">Start node</key>
+    <key alias="startnode">Startnode</key>
     <key alias="stateActive">Aktiv</key>
     <key alias="stateAll">Alle</key>
     <key alias="stateDisabled">Deaktiveret</key>

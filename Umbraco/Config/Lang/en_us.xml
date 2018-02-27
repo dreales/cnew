@@ -45,7 +45,7 @@
         <key alias="setPermissions">Set permissions</key>
         <key alias="unlock">Unlock</key>
         <key alias="createblueprint">Create Content Template</key>
-    <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+    </area>
     <area alias="actionCategories">
         <key alias="content">Content</key>
         <key alias="administration">Administration</key>
@@ -604,6 +604,7 @@
         <key alias="rights">Permissions</key>
         <key alias="search">Search</key>
         <key alias="searchNoResult">Sorry, we can not find what you are looking for</key>
+        <key alias="clearSearch">Clear search</key>
         <key alias="noItemsInList">No items have been added</key>
         <key alias="server">Server</key>
         <key alias="show">Show</key>
@@ -1467,7 +1468,7 @@ To manage your website, simply open the Umbraco back office and start adding con
 
         <key alias="iWant">I want</key>
         <key alias="allContent">all content</key>
-        <key alias="contentOfType">content of type "%0%"</key>
+        <key alias="contentOfType">content of type &quot;%0%&quot;</key>
         <key alias="from">from</key>
         <key alias="websiteRoot">my website</key>
         <key alias="where">where</key>
@@ -1500,6 +1501,12 @@ To manage your website, simply open the Umbraco back office and start adding con
         <key alias="template">Template</key>
     </area>
     <area alias="grid">
+		<key alias="rte">Rich Text Editor</key>
+		<key alias="media">Image</key>
+		<key alias="macro">Macro</key>
+		<key alias="embed">Embed</key>
+		<key alias="headline">Headline</key>
+		<key alias="quote">Quote</key>	
         <key alias="insertControl">Choose type of content</key>
         <key alias="chooseLayout">Choose a layout</key>
         <key alias="addRows">Add a row</key>
@@ -1946,6 +1953,7 @@ To manage your website, simply open the Umbraco back office and start adding con
 			</body>
     </html>]]>
         </key>
+        <key alias="invite">Invite</key>
     </area>
     <area alias="validation">
         <key alias="validation">Validation</key>
