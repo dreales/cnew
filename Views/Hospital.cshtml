@@ -10,10 +10,12 @@
   var blogposts = Umbraco.TypedContent(1113).Children.OrderByDescending(x => x.CreateDate).Take(5);
   List<int> urls = new List<int>();
   List<int> titles = new List<int>();
-  if (blogposts.Any()){
+  if (blogposts[0]){
     foreach (ContentModels.Blogpost post in blogposts){
       titles.Add(post.PageTitle);
     }
+  } else {
+    blogposts = "none";
   }
 }
 
