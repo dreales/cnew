@@ -3,60 +3,118 @@
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = null;
-
-    ContentModels.Home home = Model.Content.Site() as ContentModels.Home;
-    var colorTheme = Umbraco.GetPreValueAsString(home.ColorTheme);
-    var font = Umbraco.GetPreValueAsString(home.Font);
 }
 
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>@Model.Content.Name | @home.Sitename</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    @RenderSection("Header", required: false)
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title>@Model.Content.Name | @home.Sitename</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 </head>
 
-<body class="frontpage theme-font-@font theme-color-@colorTheme">
-    <div class="mobile-nav">
-        <nav class="nav-bar">
-            @Html.Partial("~/views/partials/navigation/topNavigation.cshtml")
-        </nav>
-    </div>
-    <header class="header">
-        <div class="logo">
-            <img src="/media/1031/circle-health-white.png" alt="Circle Health Logo">
-        </div>
-        <nav class="nav-bar top-nav">
-            @Html.Partial("~/Views/Partials/Navigation/TopNavigation.cshtml")
-        </nav>
-        <div class="mobile-nav-handler">
-            <div class="hamburger lines" id="toggle-nav">
-                <span></span>
-            </div>
-        </div>
-    </header>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light" id="top-nav">
+      <div class="collapse navbar-collapse" id="top-navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about-circle/">About Circle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/careers/">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gp-information/">GP information</a>
+          </li>
+          <li class="nav-item number">
+            <a class="nav-link" href="tel:02036136779">020 3613 6779</a>
+          </li>
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" id="searchBox" placeholder="Search" aria-label="Search">
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <nav class="navbar navbar-expand-md navbar-dark" id="main-nav">
+      <a class="navbar-brand" href="/"><img src="/media/1031/circle-health-white.png" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">Hospitals</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/bath-hospital/">Circle Bath</a>
+            <a class="dropdown-item" href="/reading-hospital/">Circle Reading</a>
+            <a class="dropdown-item" href="/nottingham/">Circle Nottingham</a>
+            <a class="dropdown-item" href="/birmingham-hospital/">Circle Birmingham</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/treatments/">Treatments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/consultants/">Find a specialist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="/rehabilitation/">Rehabilitation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="/msk/">MSK</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    @RenderBody()
+  </main>
 
-    <main>
-        @RenderBody()
-    </main>
-
-    <footer class="section--themed">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 ta-center">
-                    @home.FooterAddress
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+  <footer>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="/"><img src="/media/1031/circle-health-white.png" /></a>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/careers/">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/terms-and-conditions/">Legal notices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/privacy-policy/">Privacy policy</a>
+          </li>
+          <li class="nav-item first-social">
+            <a href="https://www.facebook.com/circlepartnership"><svg width="20" height="20" viewBox="0 0 1792 1792"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.youtube.com/channel/UCz1tqdf7KtkX2I8umgt2yig"><svg width="20" height="20" viewBox="0 0 1792 1792"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.twitter.com/CircleHealth"><svg width="20" height="20" viewBox="0 0 1792 1792"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></a>
+          </li>
+        <ul>
+      </div>
+    </nav>
+  </footer>
+    
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" async />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet" async />
+  <link href="/css/style.css" rel="stylesheet" async />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/scripts/site.js"></script>
 </body>
 </html>
